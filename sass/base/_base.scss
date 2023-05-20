@@ -1,0 +1,57 @@
+body {
+  font-family: $font-family;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: $text-primary-color;
+  margin: 0;
+}
+.container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  &__title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.17;
+  }
+
+  &--first {
+    padding-bottom: 0;
+  }
+  &--background {
+    background-color: $background-accent-color;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.icon {
+  fill: currentColor;
+}
+
+.btn {
+  @extend %btn;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}

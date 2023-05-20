@@ -1,0 +1,44 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $background-color;
+  color: #fff;
+
+  .container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  &__wraper {
+    &:first-child {
+      flex-basis: 231px;
+    }
+    &:last-child {
+      flex-basis: 570px;
+    }
+  }
+  &__title {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+}
+.address {
+  margin-top: 20px;
+  font-style: inherit;
+  line-height: 1.71;
+}
+.address-list {
+  &__link {
+    color: rgba(255, 255, 255, 0.6);
+
+    &:hover,
+    &:focus {
+      color: $primary-color;
+    }
+  }
+  &--white {
+    color: #fff;
+  }
+}
