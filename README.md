@@ -1,9 +1,10 @@
+(https://skills.thijs.gg/icons?i=react)
+
 # Phonebook App
 
-This is a Phonebook application built using React, Material-UI, and a backend
-hosted on Heroku. It leverages various libraries and features such as public and
-private routes, Redux Toolkit for state management, and data persistence using
-Redux Persist.
+application built using React, Material-UI, and a backend hosted on Heroku. It
+leverages various libraries and features such as public and private routes,
+Redux Toolkit for state management, and data persistence using Redux Persist.
 
 ## Features
 
