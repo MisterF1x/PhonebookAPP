@@ -1,6 +1,4 @@
-[![ ](https://skills.thijs.gg/icons?i=react)]
-
-# Phonebook App
+# Phonebook App ![ ](https://skills.thijs.gg/icons?i=react)
 
 application built using React, Material-UI, and a backend hosted on Heroku. It
 leverages various libraries and features such as public and private routes,
