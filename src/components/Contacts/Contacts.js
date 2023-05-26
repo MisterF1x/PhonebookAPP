@@ -23,7 +23,7 @@ export const Contacts = () => {
   );
   return (
     <List>
-      {sortedContacts.map(({ id, name, phone }) => {
+      {sortedContacts.map(({ id, name, number }) => {
         return (
           <ListItem divider={true} key={id}>
             <ListItemAvatar sx={{ textTransform: 'uppercase' }}>
@@ -48,7 +48,7 @@ export const Contacts = () => {
                 />
               </Stack>
             ) : (
-              <ListItemText primary={name} secondary={phone} />
+              <ListItemText primary={name} secondary={number} />
             )}
 
             {isLoading ? (

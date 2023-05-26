@@ -49,8 +49,9 @@ export const ContactForm = () => {
       const hasName = items.some(
         contact => contact.name.toLowerCase() === name.toLowerCase()
       );
-      if (hasName) return window.alert(`${name} is allready in contacts`);
-      dispatch(addContact(contact));
+      hasName
+        ? window.alert(`${name} is allready in contacts`)
+        : dispatch(addContact(contact));
       setSubmitting(false);
       resetForm();
     },
