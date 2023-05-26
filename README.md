@@ -1,4 +1,4 @@
-# Phonebook App ![ ](https://skillicons.dev/icons?i=react,materialu,redux)
+# Phonebook App ![ ](https://skillicons.dev/icons?i=react,materialui,redux)
 
 application built using React, Material-UI, and a backend hosted on Heroku. It
 leverages various libraries and features such as public and private routes,
