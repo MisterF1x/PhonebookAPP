@@ -12,7 +12,7 @@ import { PersistGate } from 'redux-persist/integration/react';
 const defaultTheme = createTheme();
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/goit-react-hw-08-phonebook">
+    <BrowserRouter basename="/PhonebookAPP">
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
           <ThemeProvider theme={defaultTheme}>
