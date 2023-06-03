@@ -2,7 +2,7 @@
   "name": "react-phonebook",
   "version": "0.2.0",
   "private": true,
-  "homepage": "https://misterf1x.github.io/goit-react-hw-08-phonebook/",
+  "homepage": "https://misterf1x.github.io/PhonebookAPP/",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
